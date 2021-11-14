@@ -33,6 +33,7 @@ public class Main {
         }
 
         // Sort allNumbers, xValues, and yValues according to allNumbers
+        // Google "Selection Sort" if it doesn't make sense how I'm sorting allNumbers
         for (int i = 0; i < allNumbers.length; i++) {
             for (int j = i + 1; j < allNumbers.length; j++) {
                 if (allNumbers[i] > allNumbers[j]) {
